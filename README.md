@@ -8,6 +8,6 @@ Problemet ovan kan lösas på olika sätt. Du kan välja att lösa det på A-, B
 
 __Utmana dig själv och lös uppgiften på C-nivå!__
 
-- [A-nivå](a-niva/README.md)
-- [B-nivå](b-niva/README.md)
-- [C-nivå](c-niva/README.md)
+- [A-nivå](a-niva/)
+- [B-nivå](b-niva/)
+- [C-nivå](c-niva/)
