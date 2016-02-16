@@ -107,3 +107,5 @@ FEL! 300,00 kr är ett för litet belopp. Köpet kunde inte genomföras.
 	- http://msdn.microsoft.com/en-us/library/yae1s0f9.aspx
 	- http://msdn.microsoft.com/en-us/library/s66hf68a.aspx
 	- http://msdn.microsoft.com/en-us/library/d3zkyxxe.aspx
+
+[Lösning](losning/)
