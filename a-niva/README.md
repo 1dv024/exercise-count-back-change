@@ -89,19 +89,19 @@ FEL! 300,00 kr är ett för litet belopp. Köpet kunde inte genomföras.
 ## Läsvärt
 
 - variabler
-	- Essential C# 5.0, 13-17.
+	- Essential C# 6.0, 13-17.
 	- http://msdn.microsoft.com/en-us/library/hh147285(VS.88).aspx#Variables
 - %-operatorn
-	- Essential C# 5.0, 87-89.
+	- Essential C# 6.0, 91-92.
 	- http://msdn.microsoft.com/en-us/library/0w4e0fzs.aspx
 - ”if”-satsen
-	- Essential C# 5.0, 107-114.
+	- Essential C# 6.0, 111-118.
 	- http://msdn.microsoft.com/en-us/library/5011f09h.aspx
 - ”do-while”-satsen
-	- Essential C# 5.0, 127-129.
+	- Essential C# 6.0, 134-137.
 	- http://msdn.microsoft.com/en-us/library/370s1zax.aspx
 - “try-catch”-satsen
-	- Essential C# 5.0, 194-201.
+	- Essential C# 6.0, 202-209.
 	- http://msdn.microsoft.com/en-us/library/0yd65esw.aspx
 - Hantering av färger i ett konsolfönster
 	- http://msdn.microsoft.com/en-us/library/yae1s0f9.aspx
