@@ -31,7 +31,7 @@ namespace CountBackChangeA
 
                     Console.BackgroundColor = ConsoleColor.Red;
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine($"\nFEL! {subtotal:c} är ett för litet belopp. Köpet kunder inte genomföras.\n");
+                    Console.WriteLine($"\nFEL! {subtotal:c} är ett för litet belopp. Köpet kunde inte genomföras.\n");
                     Console.ResetColor();
                     return;
                 }
@@ -59,7 +59,7 @@ namespace CountBackChangeA
 
                     Console.BackgroundColor = ConsoleColor.Red;
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine($"\nFEL! {cash:c} är ett för litet belopp. Köpet kunder inte genomföras.\n");
+                    Console.WriteLine($"\nFEL! {cash:c} är ett för litet belopp. Köpet kunde inte genomföras.\n");
                     Console.ResetColor();
                     return;
                 }
