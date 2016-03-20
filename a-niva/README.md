@@ -41,6 +41,7 @@ Här är ```subtotal``` och ```roundingOffAmount``` variabler av typen ```double
 4. Antalet sedlar och mynt ska bestämmas med hjälp av division- och modulusoperatorerna.
 5. Samlingar som t.ex. arrayer får inte användas på något sätt.
 6. Eventuella fel i samband med inmatningen ska tas om hand med hjälp av ”try-catch”-satser och användaren ska få en ny möjlighet att mata in.
+
 	![ScreenShot A](../bilder/a-bilder/errorMessage_A2.png)
 	Figur A.2.
 7. Om den inmatade totalsumman efter avrundning motsvarar ett belopp mindre än en krona är det att betrakta som ett fel varför programmet ska avslutas efter att ett felmeddelande presenterats.
