@@ -93,15 +93,19 @@ Figur B.5
 	Figur B.6 till Figur B.9 visar exempel på några felaktiga inmatningar som måste hanteras och ge användaren en ny möjlighet att mata in ett korrekt värde.
 
 	![ScreenShot B](../bilder/b-bilder/errorMessage_B6.png)
+
 	Figur B.6. Resultat av en inmatning av totalsumma mindre än 1 kr.
 	
 	![ScreenShot B](../bilder/b-bilder/errorMessage_B7.png)
+
 	Figur B.7. Resultat av en inmatning som inte kan tolkas som en summa pengar.
 	
 	![ScreenShot B](../bilder/b-bilder/errorMessage_B8.png)
+
 	Figur B.8. Resultat av en inmatning där det erhållna beloppet är mindre än beloppet att betala efter öresavrundning.
 	
 	![ScreenShot B](../bilder/b-bilder/errorMessage_B9.png)
+
 	Figur B.9. Resultat av en inmatning där det erhållna beloppet inte kan tolkas som en summa pengar.
 
 ## Läsvärt
