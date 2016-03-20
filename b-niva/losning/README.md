@@ -1,13 +1,13 @@
 # Lösning
 
-Lösningen på B-nivån är mer generaliserad och renodlad än på A-nivån samt bättre designad för att följa principen "DRY" (_Don't Repeat Yourself_). Programkoden har här refaktoriserats i flera statiska metoder för distinkta syften. 
+Lösningen på B-nivån är mer generaliserad och renodlad än på A-nivån samt också något bättre designad för att följa principen "DRY" (_Don't Repeat Yourself_). Programkoden har här refaktoriserats i flera statiska metoder för distinkta syften: 
 
 - _IO-logiken_ för inläsning och validering av indata har avgränsats till de två "Read"-metoderna ```ReadPositiveDouble``` och ```ReadUint```. 
 - Den renodlade _affärslogiken_, dvs. beräkningskoden för växelns uppdelning i valörer, har placerats i en separat statisk metod,  ```SplitIntoDenominations```. Denna logik är relativt generellt och effektivt hanterad med hjälp av en array och en ```foreach```-loop.
 
-Tack vare strukturering av koden i flera metoder får lösningen högre läsbarhet och blir lättare att överblicka. Programmet har dock fortfarande vissa brister. Exempelvis bör utskriftskod så långt möjligt avgränsas till någon specifik del av programmet, för att minska beroendet till en specifik plattform eller gränssnitt. I nuläget finns utskrifter till konsollen i alla metoder, vilket gör att applikationen blir svårare att _återanvända_ i annan miljö (t.ex. webb- eller fönsterbaserad sådan) i utan att stora delar av programmet måste skrivas om.
+Tack vare strukturering av koden i flera metoder får lösningen högre läsbarhet och blir lättare att överblicka. Programmet bryter dock fortfarande mot _DRY_ genom upprepning av en mängd utskrifter. Så långt möjligt bör utskriftskod avgränsas till specifika delar av programmet, bl.a. för att minska beroenden till ett visst gränssnitt. I nuläget görs utskrifter till konsollen i alla metoder, även i ```SplitIntoDenominations``` som egentligen bara borde hantera beräkningslogik. Detta, liksom den hårda språkkopplingen gör förstås applikationen svårare att _återanvända_ i annan språkmiljö eller plattform, (exempelvis webb- eller fönsterbaserad) utan att stora delar av programmet måste skrivas om.
 
-Det finns alltså lite mer att göra avseende hur vi organiserar koden, för att bättre stödja objektorienterade grundprinciper likt _"separation of concerns"_. **Lös gärna uppgiften på C-nivån för att förbättra detta!**
+Det finns alltså fortfarande mer att göra avseende hur vi organiserar koden, för att bättre stödja objektorienterade grundprinciper likt _"separation of concerns"_. **Lös gärna uppgiften på C-nivån för att förbättra detta!**
 
 ```c#
 using System;
