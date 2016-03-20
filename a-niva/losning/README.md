@@ -21,6 +21,8 @@ namespace CountBackChangeA
             double subtotal;
             double total;
 
+            Console.Title = "Växelpengar - nivå A";
+
             // Hämta totalsumma och erhållet belopp av användaren.
             do
             {
@@ -88,7 +90,7 @@ namespace CountBackChangeA
             Console.WriteLine($"Tillbaka         : {change,12:c0}");
             Console.WriteLine("-------------------------------\n");
 
-            remainder = (int)(change); // Tunkerar decimaler (0:orna...).
+            remainder = (int)(change); // Trunkerar decimaler (0:orna...).
 
             count = remainder / 500;
             if (count > 0)
