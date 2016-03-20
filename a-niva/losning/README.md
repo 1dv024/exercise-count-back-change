@@ -1,6 +1,6 @@
 # Lösning
 
-Ingen speciellt vacker lösning då den bl.a. bryter mot principen DRY (Don't Repeat Yourself). Lösningen skulle t.ex. vinna på att delas upp i flera metoder vilket är ett krav på B- och C-nivå. __Lös uppgiften på B- eller C-nivå!__
+Ingen speciellt vacker lösning då den bl.a. bryter mot principen DRY (_Don't Repeat Yourself_). Lösningen skulle t.ex. vinna på att delas upp i flera metoder vilket är ett krav på B- och C-nivå. __Lös uppgiften på B- eller C-nivå!__
 
 ```c#
 using System;

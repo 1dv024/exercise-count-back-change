@@ -9,14 +9,14 @@ Skriv ett program som i samband med ett köp efterfrågar totalsumma och erhåll
 Eventuella fel i samband med inmatning av totalsumma och erhållet belopp ska hanteras. Det ska inte vara möjligt att ange en totalsumma mindre än en krona eller ett erhållet belopp mindre än totalsumman.
 
 ![ScreenShot A](../bilder/a-bilder/countBackChange_A.png)
-Figur A.1.
+Figur A.1
 
 Programmet ska, förutom att presentera beloppet som kunden ska betala avrundat till närmsta hela krontal, även bestämma vilka, och antalet, sedlar och mynt som kunden ska få tillbaka så att så få sedlar och mynt används som möjligt.
-Växel ska kunna ges tillbaka med sedlar av valörerna 500, 100, 50 och 20 samt mynten 10-, 5-, och 1-kronor. Du kan anta att det alltid finns tillräckligt antal av de sedlar och mynt som krävs. Skriv endast ut de sedlar och mynt som ska lämnas tillbaka!
+Växel ska kunna ges tillbaka med sedlar av valörerna 500, 200, 100, 50 och 20 samt mynten 10-, 5-, och 1-kronor. Du kan anta att det alltid finns tillräckligt antal av de sedlar och mynt som krävs. Skriv endast ut de sedlar och mynt som ska lämnas tillbaka!
 
 ## Öresavrundning
 
-För att avrunda totalsumman till närmsta hela krontal kan du t.ex. använda den statiska metoden `Round` i klassen `Math`. Genom att bestämma differensen mellan den avrundade totalsumman och totalsumman erhålls öresavrundningen:
+För att avrunda totalsumman till närmsta hela krontal kan du t.ex. använda den statiska metoden ```Round``` i klassen ```Math```. Genom att bestämma differensen mellan den avrundade totalsumman och totalsumman erhålls öresavrundningen:
 
 ```c#
 total = (uint)Math.Round(subtotal);
@@ -41,9 +41,10 @@ Här är ```subtotal``` och ```roundingOffAmount``` variabler av typen ```double
 4. Antalet sedlar och mynt ska bestämmas med hjälp av division- och modulusoperatorerna.
 5. Samlingar som t.ex. arrayer får inte användas på något sätt.
 6. Eventuella fel i samband med inmatningen ska tas om hand med hjälp av ”try-catch”-satser och användaren ska få en ny möjlighet att mata in.
-
+	
 	![ScreenShot A](../bilder/a-bilder/errorMessage_A2.png)
 	Figur A.2.
+	
 7. Om den inmatade totalsumman efter avrundning motsvarar ett belopp mindre än en krona är det att betrakta som ett fel varför programmet ska avslutas efter att ett felmeddelande presenterats.
  
 	![ScreenShot A](../bilder/a-bilder/errorMessage_A3.png)
@@ -53,7 +54,6 @@ Här är ```subtotal``` och ```roundingOffAmount``` variabler av typen ```double
  
 	![ScreenShot A](../bilder/a-bilder/errorMessage_A4.png)
 	Figur A.4.
-
 
 ## Läsvärt
 
