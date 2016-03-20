@@ -45,11 +45,11 @@ namespace CountBackChangeB
 
                 Console.WriteLine("\nKVITTO");
                 Console.WriteLine("-------------------------------");
-                Console.WriteLine("Totalt           : {0,12:c}", subtotal);
-                Console.WriteLine("Öresavrundning   : {0,12:c}", roundingOffAmount);
-                Console.WriteLine("Att betala       : {0,12:c0}", total);
-                Console.WriteLine("Kontant          : {0,12:c0}", cash);
-                Console.WriteLine("Tillbaka         : {0,12:c0}", change);
+                Console.WriteLine($"Totalt           : {subtotal,12:c}");
+                Console.WriteLine($"Öresavrundning   : {roundingOffAmount,12:c}");
+                Console.WriteLine($"Att betala       : {total,12:c0}");
+                Console.WriteLine($"Kontant          : {cash,12:c0}");
+                Console.WriteLine($"Tillbaka         : {change,12:c0}");
                 Console.WriteLine("-------------------------------\n");
 
                 SplitIntoDenominations(change);
@@ -90,7 +90,7 @@ namespace CountBackChangeB
                 {
                     Console.BackgroundColor = ConsoleColor.Red;
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine("\nFEL! '{0}' kan inte tolkas som en giltig summa pengar.\n", input);
+                    Console.WriteLine($"\nFEL! '{input}' kan inte tolkas som en giltig summa pengar.\n");
                     Console.ResetColor();
                 }
             } while (true);
@@ -120,14 +120,14 @@ namespace CountBackChangeB
 
                     Console.BackgroundColor = ConsoleColor.Red;
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine("\nFEL! {0:c0} är ett för litet belopp.\n", value);
+                    Console.WriteLine($"\nFEL! {value:c0} är ett för litet belopp.\n");
                     Console.ResetColor();
                 }
                 catch
                 {
                     Console.BackgroundColor = ConsoleColor.Red;
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine("\nFEL! '{0}' kan inte tolkas som en summa pengar.\n", input);
+                    Console.WriteLine($"\nFEL! '{input}' kan inte tolkas som en summa pengar.\n");
                     Console.ResetColor();
                 }
             } while (true);
