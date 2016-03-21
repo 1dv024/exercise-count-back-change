@@ -52,7 +52,7 @@ Metoden ska returnera ett värde av typen ```double```. Innan värdet returneras
 Till metoden ska det vara möjligt att skicka en sträng med information som ska visas i samband med inmatningen. I Figur C.4 har argumentet ```"Ange totalsumma : "``` skickats med vid anropet av metoden.
 
 ![ScreenShot C](../bilder/c-bilder/errorMessage_C4.png)
-Figur C.3
+Figur C.4
 
 _ReadUint_
 
