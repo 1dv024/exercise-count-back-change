@@ -51,8 +51,7 @@ Figur B.3
 
 _ReadUint_
 
-Metoden ska returnera ett värde av typen ```uint```. (Datatypen ```uint``` passar i detta fall då endast hela kronor motsvarande ett värde större än 0 ska hanteras.) 
-Innan värdet returneras ska metoden säkerställa att användaren matat in ett värde som är större eller lika med angivet minsta värde. Om det inmatade inte uppfyller detta villkor ska användaren få en chans att göra en ny inmatning.
+Metoden ska returnera ett värde av typen ```uint```. (Datatypen ```uint``` passar i detta fall då endast hela kronor motsvarande ett värde större än 0 ska hanteras.) Innan värdet returneras ska metoden säkerställa att användaren matat in ett tal som är större eller lika med angivet minsta värde. Om det inmatade inte uppfyller detta villkor ska användaren få en chans att göra en ny inmatning.
 
 Till metoden ska det vara möjligt att skicka med två argument. Det första argumentet ska vara en sträng med information som ska visas i samband med inmatningen. Det andra argumentet är det minsta värdet som är giltigt. I Figur B.4 har argumenten "Ange erhållet belopp: " och 538 skickats med vid anropet av metoden.
 
@@ -114,7 +113,7 @@ Figur B.5
 	- Essential C# 6.0, 13-17.
 	- http://msdn.microsoft.com/en-us/library/hh147285(VS.88).aspx#Variables
 - Arrayer
-	- Essential C# 6.0, 71-87. (inte flerdimensionella arrayer).
+	- Essential C# 6.0, 71-87. (Inte flerdimensionella arrayer).
 	- http://msdn.microsoft.com/en-us/library/system.array.aspx
 	- http://msdn.microsoft.com/en-us/library/hh127989%28v=vs.88%29.aspx#Anchor_2 (under rubriken Arrays)
 - %-operatorn
@@ -137,7 +136,7 @@ Figur B.5
 	- Essential C# 6.0, 433-440.
 	- http://msdn.microsoft.com/en-us/library/0yd65esw.aspx
 	- http://msdn.microsoft.com/en-us/library/1ah5wsex.aspx
-	- https://msdn.microsoft.com/en-us/library/ww58ded5.aspx
+	- http://msdn.microsoft.com/en-us/library/ww58ded5.aspx
 - Hantering av färger i ett konsolfönster
 	- http://msdn.microsoft.com/en-us/library/yae1s0f9.aspx
 	- http://msdn.microsoft.com/en-us/library/s66hf68a.aspx
